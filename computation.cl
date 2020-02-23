@@ -1,3 +1,9 @@
+/*  Author. D.Bodden, 2015
+*   used for publication : CRYPTO - Linear Cryptanalysis of Reduced-Round Speck with OPENCL
+*    
+*/ 
+
+
 /* KERNEL FILE
  *
  *   SUPPORT FUNCTIONS :
@@ -185,14 +191,14 @@ inline ulong rotate_right(ulong value, int number, int wordlength)
 //===============================================================
 inline void cipherRoundFunction(
                                 __private const ulong inMaskX,
-				__private const ulong inMaskY,
+				                __private const ulong inMaskY,
                                 __private const uint blocksize,
                                 __private const ulong nrRounds,
-                               __global ulong *outputBestRoundCombo,               //OUTPUT - write the best round combo (forward, backward)
-                               __global ulong *outMasksBestRoundBackward,          //OUTPUT - write the best round backward
-                               __global ulong *outMasksOverallBackward,            //OUTPUT - write the best overall result backward
-                               __global ulong *outMasksBestRoundForward,           //OUTPUT - write the best round forward
-                               __global ulong *outMasksOverallForward             //OUTPUT - write the best overall result forward
+                                __global ulong *outputBestRoundCombo,               //OUTPUT - write the best round combo (forward, backward)
+                                __global ulong *outMasksBestRoundBackward,          //OUTPUT - write the best round backward
+                                __global ulong *outMasksOverallBackward,            //OUTPUT - write the best overall result backward
+                                __global ulong *outMasksBestRoundForward,           //OUTPUT - write the best round forward
+                                __global ulong *outMasksOverallForward              //OUTPUT - write the best overall result forward
                                 )
 {
 
