@@ -12,7 +12,7 @@ than you can run the ./make ARXTOOLBOX.
 
 In the folder ~ you find the textfiles with the results.
 
-Be aware that the code requires a graphical card with work item sizes in dim1 and dim2 greater than >1.
+Be aware that the code requires a cpu with work item sizes in dim1 and dim2 greater than >1, with the exception of the 32bit variant.
 
 # OSX vs Linux
 
