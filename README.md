@@ -12,6 +12,8 @@ than you can run the ./make ARXTOOLBOX.
 
 In the folder ~ you find the textfiles with the results.
 
+Be aware that the code requires a graphical card with work item sizes in dim1 and dim2 greater than >1.
+
 # OSX vs Linux
 
 Change the makefile depending on which operating system you're running the code. Examples are given in the Makefile.
