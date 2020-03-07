@@ -6,9 +6,9 @@ In this repository you'll find the source code used for the publication:
 # How to run
 
 Use the makefile in the Speck blocksize directory as follow: 
-* make arxtoolbox
+* make 
 
-than you can run the ./make ARXTOOLBOX. 
+than you can run the ./ARXTOOLBOX. 
 
 In the folder ~ you find the textfiles with the results.
 
